@@ -1,0 +1,47 @@
+---
+title: "Presentation HCW for Q10"
+subtitle: "⚔<br/>with xaringan"
+author: "HanChen Wang"
+institute: "UBC MDS"
+date: "2022/10/01 (updated: `r Sys.Date()`)"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+
+---
+class: center, middle
+
+# Welcome to my pages!
+
+Let's learn about the Pythagorean theorem.
+---
+class: center, middle
+
+# Pythagorean theorem
+
+Let's show how Pythagorean theorem is calculated.
+$a^2 + b^2 = c^2$
+
+---
+
+# Example 1
+Suppose the two legs have lengths 3 and 4, calculate the length of the hypotenuse.
+
+```{r eval=TRUE, tidy=FALSE}
+sqrt(3^2 + 4^2)
+```
+
+---
+
+# Example 2
+Suppose one of the legs has lengths 3 and the hypotenuse has length 5, what's the length of the other leg?
+
+```{r eval=TRUE, tidy=FALSE}
+sqrt(5^2 - 3^2)
+```
+
+
